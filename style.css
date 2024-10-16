@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+}
+#header{
+    margin: 10% 35% 
+}
+
+body{
+    background-color: lightcoral;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    
+    /*margin: 10% 35% ;*/
+    /*width: 40vh;*/
+}
+#box1{
+    /*border: 2px solid black;*/
+    display: flex;
+    /*margin:10%;*/
+}
+
+.box{
+   
+    border: 2px solid black;
+    width: 5vh;
+    height: 5vh;
+    margin: 3vh;
+    padding: 5vh;
+    background-color: lightseagreen;
+    transition: all 3s ease-out;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    /*transition: all 3s;*/
+}
+/*.box:hover{
+    transform: rotate(360deg);
+    background-color: yellow;
+ 
+}*/
+#btn1{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn3{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*#btn3:hover{
+     background-color: red;
+     color: white;
+/*}*/
+#btn1:hover{
+    background-color: red;
+    color: white;
+}
+#btn3{
+    justify-content: center; 
+    align-items: center; 
+    /*padding: vh; */
+}
+#btn3:hover{
+    color: white;
+    background-color: black;
+}
+
